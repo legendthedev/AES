@@ -13,3 +13,5 @@ PyPDF2>=3.0.0
 language-tool-python>=2.8.0
 matplotlib>=3.7.0
 plotly>=5.15.0
+torch
+torchvision
