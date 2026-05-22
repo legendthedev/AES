@@ -31,6 +31,10 @@ from src.scoring_engine import ScoringEngine, PROMPT_SCORE_RANGES
 from src.feedback_engine import FeedbackEngine
 from src.evaluation_metrics import EvaluationMetrics, SystemEvaluationReport
 
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+
 # ─── PAGE CONFIG ─────────────────────────────────────────────────────────────
 
 st.set_page_config(
