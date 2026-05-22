@@ -5,6 +5,11 @@ Kwara State University, Malete — Faculty of ICT, Dept. of Computer Science
 Streamlit Application — Main Entry Point
 """
 
+import warnings
+
+# Suppress the specific path access deprecation warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="transformers")
+
 import sys
 import os
 import time
